@@ -1,0 +1,98 @@
+#color-picker {
+    height: 70px;
+    width: 906px;
+    /* background-color: #CC6600; */
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.upper {
+    /* border: 5px black solid; */
+    border-radius: 8px;
+    width: 906px;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.canvas {
+    border-right: 3px white solid;
+    /* background-color: #33655A; */
+    opacity: 1;
+    position: absolute;
+    cursor: url(images/smallSize.png) 9 9, auto;
+    /* cursor: url(images/bigSize.png) 26 26, auto; */
+    z-index: 2;
+    border-radius: 8px 0px 0px 8px;
+}
+
+#canvas-real {
+    border-right: 3px white solid;
+    /* background-color: #33655A; */
+    background-image: url("./images/chalkboard.jpg");
+    z-index: 2;
+}
+
+#chalkboard {
+    border-right: 3px white solid;
+    background-color: transparent;
+}
+
+#canvas-container {
+    display: relative;
+}
+
+#ranking {
+    border-left: 3px white solid;
+    border-bottom: 3px white solid;
+    /* background-color: #33655A; */
+    background-image: url("./images/chalkboard.jpg");
+    width: 200px;
+    height: 150px;
+    margin-left: 706px;
+    display: absolute;
+    border-radius: 0px 8px 0px 0px;
+}
+
+#chatroom {
+    border-left: 3px white solid;
+    /* border-top: 3px white solid; */
+    /* background-color: #33655A; */
+    background-image: url("./images/chalkboard.jpg");
+    width: 200px;
+    height: 338px;
+    margin-left: 706px;
+    display: absolute;
+    border-radius: 0px 0px 8px 0px ;
+}
+
+
+.fa-minus {
+    transform: rotate(45deg);
+    font-size: 1.5em;
+    padding: 0px 8px 0px 8px;
+    margin: 0px;
+    border: 0px;
+}
+
+.room {
+    width: 1010px;
+    height: 590px;
+    /* background-position: 100px 100px; */
+    background-image: url("./images/wood.jpg");
+    background-size: 1010px 590px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+.draw {
+    margin: 0px;
+    width: 1500px;
+    height: 800px;
+    background-image: url("./images/wall.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 783px;
+}
